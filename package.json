@@ -1,0 +1,31 @@
+{
+  "name": "react-simple-aes",
+  "version": "0.1.0",
+  "description": "Simple hooks for AES encryption and decryption in React using the WebCrypto API",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --minify --dts --clean",
+    "lint": "tsc"
+  },
+  "keywords": [
+    "react",
+    "aes",
+    "crypto",
+    "encryption",
+    "decryption",
+    "webcrypto"
+  ],
+  "author": "Valerius Mattfeld <mail@valerius.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.1",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "superjson": "^1.12.3"
+  }
+}
